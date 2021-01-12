@@ -1249,6 +1249,7 @@ GameObject:
   - component: {fileID: 1434772656}
   - component: {fileID: 1434772655}
   - component: {fileID: 1434772659}
+  - component: {fileID: 1434772660}
   m_Layer: 0
   m_Name: adventurer-idle-00
   m_TagString: Untagged
@@ -1379,6 +1380,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62fa02941c2a3cc459cdee8dcbf61b80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player_speed: 3
+--- !u!114 &1434772660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434772654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2dd9e2861f849438045e45802e6950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joystic: {fileID: 1418452943}
   Player_speed: 3
 --- !u!1 &1622640428
 GameObject:
