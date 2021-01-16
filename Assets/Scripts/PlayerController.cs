@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
+    public float jump = 3f;
     public Joystic joystic; //조이스틱
     public float Player_speed; //플레이어 속도
 
@@ -21,6 +22,10 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
+        {
+            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
+        }
         HandleInput();
     }
 
@@ -36,11 +41,10 @@ public class PlayerController : MonoBehaviour
 
     public Vector2 poolInput()
     {
-       /* if(joystic.GetHorizontalValue())
         float h = joystic.GetHorizontalValue();
         Vector2 moveDir = new Vector3(h, 0).normalized;
 
-        return moveDir; */
+        return moveDir;
     }
 
     public void Move()
