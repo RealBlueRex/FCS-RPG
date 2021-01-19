@@ -16,4 +16,10 @@ public class ButtonMgmt : MonoBehaviour
             Debug.LogWarning("System: " + scene + "씬이 로드에 실패했습니다!");
         }
     }
+
+    public void ApplicationQuit()
+    {
+        Debug.Log("게임이 종료됩니다");
+        Application.Quit();
+    }
 }
