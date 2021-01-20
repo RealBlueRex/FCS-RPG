@@ -3,8 +3,8 @@
     "m_SelectedPackage": {
         "deviceId": "26f5df8c8c217ece",
         "name": "com.mcna.fscrpg",
-        "processId": 8008,
-        "exited": false
+        "processId": 15266,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -19,6 +19,12 @@
             "name": "com.mcna.fscrpg",
             "processId": 8008,
             "exited": false
+        },
+        {
+            "deviceId": "26f5df8c8c217ece",
+            "name": "com.mcna.fscrpg",
+            "processId": 15266,
+            "exited": true
         }
     ],
     "m_Tags": {

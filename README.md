@@ -13,3 +13,4 @@ Who Choose good? This project is OpenSource Project :) This project My first 202
 3. 설정버튼을 게임 종료 버튼으로 기능변경을 하였습니다.
 4. 게임 플레이 도중 플레이어가 대각선으로 이동하는 버그를 수정했습니다.
 5. 게임 플레이어에 그림자를 추가해줬습니다.(약간)
+6. 기본적인 애니메이션 추가

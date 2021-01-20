@@ -8,16 +8,17 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -50,7 +51,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -65,17 +72,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11890}
     - Class: 114
+      Script: {instanceID: 12230}
+    - Class: 114
       Script: {instanceID: 12282}
     - Class: 114
       Script: {instanceID: 12356}
     - Class: 114
+      Script: {instanceID: 12512}
+    - Class: 114
       Script: {instanceID: 12590}
     - Class: 114
-      Script: {instanceID: 13114}
+      Script: {instanceID: 13116}
     - Class: 114
-      Script: {instanceID: 13924}
+      Script: {instanceID: 13926}
     - Class: 114
-      Script: {instanceID: 14580}
+      Script: {instanceID: 14582}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -132,13 +143,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12512}
     - Class: 114
-      Script: {instanceID: 13114}
+      Script: {instanceID: 13116}
     - Class: 114
-      Script: {instanceID: 13924}
+      Script: {instanceID: 13926}
     - Class: 114
-      Script: {instanceID: 14470}
+      Script: {instanceID: 14472}
     - Class: 114
-      Script: {instanceID: 14580}
+      Script: {instanceID: 14582}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -432,6 +443,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Joystic
+  - hash:
+      serializedVersion: 2
+      Hash: bafd5808d8b8901cb21bedcb5cae5d48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Test_Joystic
   - hash:
       serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
