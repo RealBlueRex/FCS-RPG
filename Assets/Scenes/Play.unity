@@ -238,7 +238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15, y: 25.4}
+  m_AnchoredPosition: {x: -9.8, y: 26.4}
   m_SizeDelta: {x: 29.999924, y: 30.819702}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714341344
@@ -273,7 +273,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\uC810"
+  m_Text: J
 --- !u!222 &714341345
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -431,8 +431,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239845432}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.025, y: 0.02, z: 0}
-  m_LocalScale: {x: 5.364464, y: 4.1655383, z: 1}
+  m_LocalPosition: {x: 2.189, y: 0.02, z: 0}
+  m_LocalScale: {x: 10.852072, y: 4.1655383, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 1360118176}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1551,8 +1551,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434772654}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.2545586, y: -0.30877686, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -6.44, y: -0.51, z: 0}
+  m_LocalScale: {x: 0.77660453, y: 0.77660453, z: 0.77660453}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
