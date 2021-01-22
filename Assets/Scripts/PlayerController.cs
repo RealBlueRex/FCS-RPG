@@ -27,6 +27,17 @@ public class PlayerController : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
         }
         HandleInput();
+
+        float h = joystic.GetHorizontalValue();
+
+        if (h > 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else if (h < 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
     }
 
     private void FixedUpdate()

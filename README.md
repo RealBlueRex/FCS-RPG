@@ -17,3 +17,4 @@ Who Choose good? This project is OpenSource Project :) This project My first 202
 4. 게임 플레이 도중 플레이어가 대각선으로 이동하는 버그를 수정했습니다.
 5. 게임 플레이어에 그림자를 추가해줬습니다.(약간)
 6. 기본적인 애니메이션 추가
+7. 플레이어의 방향에 따라 보는 방향이 다르게 변하는 기능 추가.
