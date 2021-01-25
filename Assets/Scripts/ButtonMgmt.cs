@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEditor;
+using UnityEditor.EditorTools;
 
 public class ButtonMgmt : MonoBehaviour
 {
@@ -17,9 +19,14 @@ public class ButtonMgmt : MonoBehaviour
         }
     }
 
-    public void ApplicationQuit()
+    public void Quit()
     {
-        Debug.Log("게임이 종료됩니다");
-        Application.Quit();
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;  //유니티 에디터에서 플레이시 play를 false로
+#elif UNITY_WEBPLAYER
+        Application.OpenURL("http://google.com/"); //구글웹 전환
+#else
+        Application.Quit(); //앱 종료
+#endif
     }
 }

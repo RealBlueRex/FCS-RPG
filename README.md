@@ -6,6 +6,7 @@ Who Choose good? This project is OpenSource Project :) This project My first 202
 # 최근 오류 수정
 1. 조이스틱이 눌러도 그 방향대로 안가능 버그를 수정했습니다.
 2. 게임 플레이 도중 플레이어가 대각선으로 이동하는 버그를 수정했습니다.
+3. 특정 플랫폼에서 앱이 종료가 안되는 버그 수정
 
 # 핫픽스(업데이트)
 
@@ -18,3 +19,4 @@ Who Choose good? This project is OpenSource Project :) This project My first 202
 5. 게임 플레이어에 그림자를 추가해줬습니다.(약간)
 6. 기본적인 애니메이션 추가
 7. 플레이어의 방향에 따라 보는 방향이 다르게 변하는 기능 추가.
+8. 특정 플랫폼에서 앱이 종료가 안되는 버그 수정
