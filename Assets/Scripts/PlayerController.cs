@@ -6,6 +6,8 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
+    public bool _isGround = false; //땅이라면
+    public int _jumpCount = 2; //점프 카운트
     public float jump = 3f;
     public Joystic joystic; //조이스틱
     public float Player_speed; //플레이어 속도
@@ -17,6 +19,16 @@ public class PlayerController : MonoBehaviour
     {
         _transform = transform; //트랜스폼
         _moveVector = Vector2.zero; //플레이어 이동백터
+        _jumpCount = 0;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+        {
+            _isGround = true; //땅에 닿으면 true
+            _jumpCount = 2; //초기화
+        }
     }
 
     // Update is called once per frame
@@ -24,7 +36,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
+            Jump_B();
         }
         HandleInput();
 
@@ -65,6 +77,14 @@ public class PlayerController : MonoBehaviour
 
     public void Jump_B()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
+        if (_isGround)
+        {
+            if (_jumpCount > 0)
+            {
+                    GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
+                    HandleInput();
+                    _jumpCount -= 1;
+            }
+        }
     }
 }

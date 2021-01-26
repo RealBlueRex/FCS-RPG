@@ -18,4 +18,15 @@ public class Test_PlayerController : MonoBehaviour
             transform.Translate(new Vector2(Input.GetAxisRaw("Horizontal") * Player_speed * Time.deltaTime, 0f));
         }
     }
+
+    private void Update()
+    {
+        if(Input.GetAxisRaw("Horizontal") > 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        } else if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
+    }
 }
