@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
+    public AudioClip clip;
     public bool _isGround = false; //땅이라면
     public int _jumpCount = 2; //점프 카운트
     public float jump = 3f;
@@ -37,6 +38,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             Jump_B();
+
+            //AudioMgmt.instance.SFXPlay("Jump", clip);
         }
         HandleInput();
 
@@ -81,9 +84,10 @@ public class PlayerController : MonoBehaviour
         {
             if (_jumpCount > 0)
             {
-                    GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
-                    HandleInput();
-                    _jumpCount -= 1;
+                AudioMgmt.instance.SFXPlay("Jump", clip);
+                GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
+                HandleInput();
+                _jumpCount -= 1;
             }
         }
     }

@@ -24,7 +24,7 @@ public class ButtonMgmt : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;  //유니티 에디터에서 플레이시 play를 false로
 #elif UNITY_WEBPLAYER
-        Application.OpenURL("http://google.com/"); //구글웹 전환
+        Application.OpenURL("http://stackoverflow.com/"); //개발자들의 성지로 이동
 #else
         Application.Quit(); //앱 종료
 #endif

@@ -5,16 +5,26 @@ using UnityEditor;
 
 public class AudioMgmt : MonoBehaviour
 {
-    public AudioClip _audio;
-    // Start is called before the first frame update
-    void Start()
+    public static AudioMgmt instance;
+    private void Awake()
     {
-        
+        if(instance == null)
+        {
+            instance = this;
+            //DontDestroyOnLoad(instance);
+        } else
+        {
+            //Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SFXPlay(string sfxName, AudioClip clip)
     {
-        
+        GameObject go = new GameObject(sfxName + "Sound");
+        AudioSource audiosource = go.AddComponent<AudioSource>();
+        audiosource.clip = clip;
+        audiosource.Play();
+
+        Destroy(go, clip.length);
     }
 }
