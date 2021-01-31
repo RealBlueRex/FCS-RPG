@@ -6,6 +6,9 @@ using UnityEditor;
 public class AudioMgmt : MonoBehaviour
 {
     public static AudioMgmt instance;
+
+    public AudioClip aydi;
+
     private void Awake()
     {
         if(instance == null)
@@ -26,5 +29,10 @@ public class AudioMgmt : MonoBehaviour
         audiosource.Play();
 
         Destroy(go, clip.length);
+    }
+
+    public void OnclickPlay()
+    {
+        //추후 작동 안될시 코드 추가 작성 바람
     }
 }
