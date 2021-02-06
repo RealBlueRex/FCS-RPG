@@ -15,7 +15,7 @@ public class ButtonMgmt : MonoBehaviour
         //{
             
         SceneManager.LoadScene(scene);
-        AudioMgmt.instance.SFXPlay("Start_sound", clip);
+        //AudioMgmt.instance.SFXPlay("Start_sound", clip); 오류발생 그레서 임시 보류
         Debug.Log("System: " + scene + "씬이 로드에 성공했습니다!");
         //} catch
         //{
