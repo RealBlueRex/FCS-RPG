@@ -10,7 +10,7 @@ public class UIMgmt : MonoBehaviour
 
     private float maxHp = 100f;
     private float curHp = 100f;
-    float imsi;
+    float hell;
     void Start()
     {
         HPbar.value = (float)curHp / (float)maxHp;
@@ -27,7 +27,7 @@ public class UIMgmt : MonoBehaviour
             {
                 curHp = 0;
             }
-            imsi = (float)curHp / (float)maxHp;
+            hell = (float)curHp / (float)maxHp;
             HandleHp();
         }
         //HandleHp();
@@ -35,6 +35,6 @@ public class UIMgmt : MonoBehaviour
 
     void HandleHp()
     {
-        HPbar.value = Mathf.Lerp(HPbar.value, imsi, Time.deltaTime * 10);  
+        HPbar.value = Mathf.Lerp(HPbar.value, hell, Time.deltaTime * 10);  
     }
 }
