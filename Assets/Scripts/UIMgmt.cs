@@ -16,7 +16,7 @@ public class UIMgmt : MonoBehaviour
         HPbar.value = (float)curHp / (float)maxHp;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
