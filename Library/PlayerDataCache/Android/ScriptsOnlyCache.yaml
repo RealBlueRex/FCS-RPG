@@ -73,35 +73,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 618}
     - Class: 114
-      Script: {instanceID: 11294}
+      Script: {instanceID: 11496}
     - Class: 114
-      Script: {instanceID: 11604}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 11876}
+      Script: {instanceID: 12078}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 12102}
     - Class: 114
-      Script: {instanceID: 12248}
+      Script: {instanceID: 12450}
     - Class: 114
-      Script: {instanceID: 12300}
+      Script: {instanceID: 12500}
     - Class: 114
-      Script: {instanceID: 12378}
+      Script: {instanceID: 12578}
     - Class: 114
-      Script: {instanceID: 12538}
+      Script: {instanceID: 12738}
     - Class: 114
-      Script: {instanceID: 12616}
+      Script: {instanceID: 12816}
     - Class: 114
-      Script: {instanceID: 13166}
+      Script: {instanceID: 13366}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13632}
     - Class: 114
-      Script: {instanceID: 13802}
+      Script: {instanceID: 14002}
     - Class: 114
-      Script: {instanceID: 13998}
+      Script: {instanceID: 14196}
     - Class: 114
-      Script: {instanceID: 14676}
+      Script: {instanceID: 14874}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -148,25 +148,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11294}
+      Script: {instanceID: 11496}
     - Class: 114
-      Script: {instanceID: 11604}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 12248}
+      Script: {instanceID: 12450}
     - Class: 114
-      Script: {instanceID: 12378}
+      Script: {instanceID: 12578}
     - Class: 114
-      Script: {instanceID: 12538}
+      Script: {instanceID: 12738}
     - Class: 114
-      Script: {instanceID: 13166}
+      Script: {instanceID: 13366}
     - Class: 114
-      Script: {instanceID: 13998}
+      Script: {instanceID: 14196}
     - Class: 114
-      Script: {instanceID: 14562}
+      Script: {instanceID: 14760}
     - Class: 114
-      Script: {instanceID: 14676}
+      Script: {instanceID: 14874}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -746,4 +746,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Start_menu.unity
   - Assets/Scenes/Play.unity
-  playerPath: C:/Users/naiju/Desktop/FCS-RPG-0.02.apk
+  playerPath: /Users/naijun/Documents/Build-FCS.apk
