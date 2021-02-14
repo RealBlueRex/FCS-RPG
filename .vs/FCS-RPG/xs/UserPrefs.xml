@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{970F17AC-E1A1-E521-7B58-349B56EC5CCD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIMgmt.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
       <File FileName="Assets/Scripts/GameManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Joystic.cs" />
@@ -21,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="14beb3f3-f6b9-4d7d-9693-5e17a89ff4ec" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d4a1d303-bf3c-4710-b7f0-fe3066cf145e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

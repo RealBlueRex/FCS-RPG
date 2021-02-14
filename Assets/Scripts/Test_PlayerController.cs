@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test_PlayerController : MonoBehaviour
+public class Test_PlayerController : MonoBehaviour //Make by BLUEREX
 {
     public int Player_speed = 3;
     // Start is called before the first frame update
@@ -17,16 +17,25 @@ public class Test_PlayerController : MonoBehaviour
         {
             transform.Translate(new Vector2(Input.GetAxisRaw("Horizontal") * Player_speed * Time.deltaTime, 0f));
         }
-    }
 
-    private void Update()
-    {
-        if(Input.GetAxisRaw("Horizontal") > 0)
+        if (Input.GetAxisRaw("Horizontal") > 0)
         {
             GetComponent<SpriteRenderer>().flipX = false;
-        } else if (Input.GetAxisRaw("Horizontal") < 0)
+        }
+        else if (Input.GetAxisRaw("Horizontal") < 0)
         {
             GetComponent<SpriteRenderer>().flipX = true;
         }
     }
+
+    //private void Update()
+    //{
+    //    if(Input.GetAxisRaw("Horizontal") > 0)
+    //    {
+    //        GetComponent<SpriteRenderer>().flipX = false;
+    //    } else if (Input.GetAxisRaw("Horizontal") < 0)
+    //    {
+    //        GetComponent<SpriteRenderer>().flipX = true;
+    //    }
+    //}
 }

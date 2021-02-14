@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
@@ -53,10 +53,7 @@ public class PlayerController : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().flipX = true;
         }
-    }
 
-    private void FixedUpdate()
-    {
         Move(); //플레이어 이동
     }
 
