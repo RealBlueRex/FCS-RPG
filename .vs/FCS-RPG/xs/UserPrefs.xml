@@ -3,16 +3,19 @@
     <Files>
       <File FileName="Assets/Scripts/GameManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Joystic.cs" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="27" Column="6" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="16" Column="27" />
       <File FileName="Assets/Scripts/Test_PlayerController.cs" />
-      <File FileName="Assets/Scripts/UIMgmt.cs" Line="19" Column="23" />
+      <File FileName="Assets/Scripts/UIMgmt.cs" />
+      <File FileName="Assets/Scripts/Test_Joystic.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FCS-RPG" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="PlayerController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -21,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d4a1d303-bf3c-4710-b7f0-fe3066cf145e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="15847d27-7a8e-4c03-8fa5-0e234181598c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

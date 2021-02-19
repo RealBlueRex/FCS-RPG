@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public Joystic joystic; //조이스틱
     public float Player_speed; //플레이어 속도
 
+    public Image hp; //채력바
+
     private Vector2 _moveVector; //플레이어 이동 위치
     private Transform _transform;
     // Start is called before the first frame update
@@ -55,6 +57,14 @@ public class PlayerController : MonoBehaviour
         }
 
         Move(); //플레이어 이동
+
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            hp.fillAmount -= 0.05f;
+        } else if(Input.GetKeyDown(KeyCode.R))
+        {
+            hp.fillAmount += 0.05f;
+        }
     }
 
     private void HandleInput()

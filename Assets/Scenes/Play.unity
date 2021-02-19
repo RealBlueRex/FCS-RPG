@@ -2402,6 +2402,7 @@ MonoBehaviour:
   jump: 5
   joystic: {fileID: 1418452943}
   Player_speed: 5
+  hp: {fileID: 1662688116}
 --- !u!114 &1434772661
 MonoBehaviour:
   m_ObjectHideFlags: 0
