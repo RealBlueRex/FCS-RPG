@@ -9,6 +9,7 @@ using UnityEditor;
 public class ButtonMgmt : MonoBehaviour
 {
     public AudioClip clip;
+    public GameObject Option_panel;
     public void GotoScene(string scene)
     {
         //try
@@ -32,5 +33,36 @@ public class ButtonMgmt : MonoBehaviour
 #else
         Application.Quit(); //앱 종료
 #endif
+    }
+
+    public void Option()
+    {
+        if (Option_panel.activeSelf == false)
+        {
+            Debug.Log("setActive(false)이므로 패널 실행");
+            Option_panel.SetActive(true);
+            Debug.Log("옵션에 진입합니다.");
+        } else if (Option_panel.activeSelf == true)
+        {
+            Debug.LogWarning("active가 이미 켜저있어요 :( 달라지는건 없습니다.");
+        } else
+        {
+            Debug.LogError("뭐야 뭘 만진거야");
+        }
+    }
+
+    public void Option_Quit()
+    {
+        if (Option_panel.activeSelf == true)
+        {
+            Debug.Log("setActive(true)이므로 패널 실행");
+            Option_panel.SetActive(false);
+            Debug.Log("옵션에 진입합니다.");
+        }
+        else if (Option_panel.activeSelf == false)
+        {
+            Debug.LogWarning("active가 이미 꺼져있어요 :( 달라지는건 없습니다.");
+        }
+        else Debug.LogError("뭐야 뭘 만진거야");
     }
 }

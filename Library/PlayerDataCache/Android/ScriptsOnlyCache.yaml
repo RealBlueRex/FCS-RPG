@@ -7,7 +7,6 @@ ScriptsOnlyBuild:
     - MainCarmera
     - PlayerController
     - Test_PlayerController
-    - UIMgmt
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -20,12 +19,6 @@ ScriptsOnlyBuild:
     - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -71,37 +64,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 618}
+      Script: {instanceID: 620}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11296}
     - Class: 114
-      Script: {instanceID: 11806}
+      Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 11860}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 12078}
+      Script: {instanceID: 11878}
     - Class: 114
-      Script: {instanceID: 12102}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 12450}
+      Script: {instanceID: 12250}
     - Class: 114
-      Script: {instanceID: 12500}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12738}
+      Script: {instanceID: 12538}
     - Class: 114
-      Script: {instanceID: 12816}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 13366}
+      Script: {instanceID: 13166}
     - Class: 114
-      Script: {instanceID: 13632}
+      Script: {instanceID: 13802}
     - Class: 114
-      Script: {instanceID: 14002}
+      Script: {instanceID: 13998}
     - Class: 114
-      Script: {instanceID: 14196}
-    - Class: 114
-      Script: {instanceID: 14874}
+      Script: {instanceID: 14676}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -148,25 +139,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11296}
     - Class: 114
-      Script: {instanceID: 11806}
+      Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 11860}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 12450}
+      Script: {instanceID: 12250}
     - Class: 114
-      Script: {instanceID: 12578}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12738}
+      Script: {instanceID: 12538}
     - Class: 114
-      Script: {instanceID: 13366}
+      Script: {instanceID: 13166}
     - Class: 114
-      Script: {instanceID: 14196}
+      Script: {instanceID: 13998}
     - Class: 114
-      Script: {instanceID: 14760}
+      Script: {instanceID: 14562}
     - Class: 114
-      Script: {instanceID: 14874}
+      Script: {instanceID: 14676}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -330,7 +321,7 @@ ScriptsOnlyBuild:
     className: AudioMgmt
   - hash:
       serializedVersion: 2
-      Hash: 1854dae1986cd05556c6e146cf62e7ae
+      Hash: c9c3f73962bfd152ece23e355c1c8094
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -456,7 +447,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 18c152473ea259b38afa9f6b7c7a6966
+      Hash: 8496c81dad9835ad3d9eaf4d4c2b3f72
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonMgmt
@@ -746,4 +737,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Start_menu.unity
   - Assets/Scenes/Play.unity
-  playerPath: /Users/naijun/Documents/Build-FCS.apk
+  playerPath: /Users/naijun/Desktop/Build-FCS.apk

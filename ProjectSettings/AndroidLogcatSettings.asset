@@ -1,10 +1,10 @@
 {
-    "m_SelectedDeviceId": "26f5df8c8c217ece",
+    "m_SelectedDeviceId": "02157df27b8aba39",
     "m_SelectedPackage": {
-        "deviceId": "26f5df8c8c217ece",
-        "name": "com.mcna.fscrpg",
-        "processId": 15266,
-        "exited": true
+        "deviceId": "02157df27b8aba39",
+        "name": "com.mcna.fcsrpg",
+        "processId": 17677,
+        "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -25,6 +25,18 @@
             "name": "com.mcna.fscrpg",
             "processId": 15266,
             "exited": true
+        },
+        {
+            "deviceId": "02157df27b8aba39",
+            "name": "com.mcna.fcsrpg",
+            "processId": 14606,
+            "exited": false
+        },
+        {
+            "deviceId": "02157df27b8aba39",
+            "name": "com.mcna.fcsrpg",
+            "processId": 17677,
+            "exited": false
         }
     ],
     "m_Tags": {
