@@ -3,11 +3,11 @@
     <Files>
       <File FileName="Assets/Scripts/GameManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Joystic.cs" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="16" Column="27" />
+      <File FileName="Assets/Scripts/PlayerController.cs" />
       <File FileName="Assets/Scripts/Test_PlayerController.cs" />
       <File FileName="Assets/Scripts/UIMgmt.cs" />
       <File FileName="Assets/Scripts/Test_Joystic.cs" />
-      <File FileName="Assets/Scripts/ButtonMgmt.cs" Line="45" Column="14" />
+      <File FileName="Assets/Scripts/ButtonMgmt.cs" Line="21" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="545a1567-9f11-4796-9af1-6fe240c45ea0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6ff4bd44-147a-4c0e-a02b-04102d940c72" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

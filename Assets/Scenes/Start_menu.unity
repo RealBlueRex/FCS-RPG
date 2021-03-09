@@ -1112,7 +1112,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 67, y: 50}
+  m_AnchoredPosition: {x: 35, y: 46}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136394503
@@ -1147,7 +1147,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\uBCF8 \uAE30\uB2A5\uC740 \uD14C\uC2A4\uD2B8\uC911\uC785\uB2C8\uB2E4."
+  m_Text: Unity Ver 2019.4.21 LTS
 --- !u!222 &1136394504
 CanvasRenderer:
   m_ObjectHideFlags: 0
